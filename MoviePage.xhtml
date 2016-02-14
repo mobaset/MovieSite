@@ -1,26 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html
-        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
+        <!--PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"-->
+        <!--"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
     <title>Movie Title</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-    <style type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/customStyle.css"/>
 
-    </style>
 </head>
 <body>
-<div class="navbar navbar-default">
-    <div class="container">
-        <div class="navbar-header">
-            <a href="" class="navbar-brand">Movie Site</a>
+    <div class="custom_container container">
+        <nav id="movie_title" class="navbar navbar-default">
+            <div id="logo">
+                <img src="" />
+            </div>
+            <div id="title">
+                <h1>Deadpool</h1>
+            </div>
+        </nav>
+        <div id="movie_graphics">
+            <div id="movie_image">
+                <img src="deadpool.jpg" alt=""/>
+            </div>
+            <div id="movie_trailer">
+                <video></video>
+            </div>
+        </div>
+    </div>
+    <div id="content_area" class="custom_container container">
+        <nav id="content_navigation" >
+            <div class="container">
+                <div id="nav_header">
+                    <ul class="nav nav-pills">
+                        <li role="presentation" class="active"><a href="#overview">Movie Overview</a></li>
+                        <li role="presentation"><a href="#cast">Full Cast</a></li>
+                        <li role="presentation"><a href="#ratings">Ratings</a> </li>
+                        <li role="presentation"><a href="#similar">Similar Movies</a> </li>
+                        <li role="presentation"><a href="#opinion">Crowd Opinion</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="overview">
+            <div id="movie_details">
+                <div>
+                    <img src="Ryan%20Reynolds.jpg" alt=""/>
+                    <h4>Lead Actor/Actress: </h4>
+                    <span>
+                        <a href="">Ryan Reynolds</a>
+                    </span>
+                </div>
+                <div>
+                    <div>
+                        <h4>Rating:</h4>
+                        <span><a href="">9/10</a> </span>
+                    </div>
+                    <div>
+                        <h4>Genre:</h4>
+                        <span><a href="" >Action</a></span>
+                    </div>
+                    <div>
+                        <h4>Release Date:</h4>
+                        <span><a href="">12 Feb 2016</a></span>
+                    </div>
+                </div>
+            </div>
+            <div id="movie_summary">
+                <h4>Story Line</h4>
+                <div>
+                    A former Special Forces operative turned mercenary is subjected to a rogue experiment that leaves him with accelerated healing powers, adopting the alter ego Deadpool.
+                </div>
+            </div>
+        </div>
+        <div id="cast">
+            
         </div>
 
     </div>
 
-</div>
 
 
 </body>

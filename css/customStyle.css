@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+#nav1 {
+    height: 83px;
+    padding: 10px;
+    /*margin: 5px 0px 5px 0px;*/
+    /*background: #626872;*/
+    background: linear-gradient(to bottom, #64D1F5 0%, #444C4F 100%) ;
+    border-color: rgba(149, 166, 181, 0.65);
+}
+#movie_title {
+    background: #9ba3a0;
+    height: 100px;
+    /*width: 100%;*/
+    margin: auto;
+}
+    #title {
+        color: #000000;
+        background: #fffdc1;
+        float: right;
+        width: 85%;
+        height: 100%;
+    }
+    #logo {
+        float: left;
+        width: 15%;
+    }
+
+#movie_graphics {
+    height: 350px;
+    width: 100%;
+}
+    #movie_image {
+        background: #4ea337;
+        float: left;
+        width: 30%;
+    }
+    #movie_trailer {
+        background: #4d66a3;
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
