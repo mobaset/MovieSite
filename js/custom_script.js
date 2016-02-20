@@ -11,6 +11,6 @@ $(document).ready(function () {
         });
         $(this).addClass('active');
         $('.hidden_div').hide();
-        $($(this).find('a').attr('href')).show();
+        $($(this).find('a').attr('href')).slideDown('slow')
     })
 });
