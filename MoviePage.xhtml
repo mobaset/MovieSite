@@ -8,26 +8,26 @@
     <title>Movie Title</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="css/customStyle.css"/>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"/>
+    <script type="text/javascript" src="js/custom_script.js"/>
 
 </head>
 <body>
     <header class="custom_container container">
         <!--logo and movie title with sign in button-->
+
         <nav id="movie_title" class="navbar navbar-default">
-            <div id="logo">
-                <img src="" />
-            </div>
-            <div id="title">
-                <h1>Deadpool</h1>
-            </div>
+            <h1>Deadpool</h1>
         </nav>
         <!--creatives of the movie (movie image and trailer iframe)-->
         <section id="movie_graphics" class="">
             <div id="movie_image">
                 <img src="deadpool.jpg" alt=""/>
-            </div>
+            </div >
             <div id="movie_trailer">
-                <video></video>
+                <iframe width="500" height="300"
+                     src="https://www.youtube.com/embed/frRFOrbPfNc">
+                </iframe>
             </div>
         </section>
     </header>
@@ -38,7 +38,7 @@
         <nav id="content_navigation" >
             <div class="container">
                 <div id="nav_header">
-                    <ul class="nav nav-pills">
+                    <ul class="nav nav-pills" id="div_selector">
                         <li role="presentation" class="active"><a href="#overview">Movie Overview</a></li>
                         <li role="presentation"><a href="#cast">Full Cast</a></li>
                         <li role="presentation"><a href="#ratings">Ratings</a> </li>
@@ -50,16 +50,16 @@
         </nav>
 
         <!--content sub-area ==> overview-->
-        <div id="overview">
+        <div id="overview" class="hidden_div">
             <div id="movie_details">
-                <div>
+                <div id="lead_actor">
                     <img src="Ryan%20Reynolds.jpg" alt=""/>
                     <h4>Lead Actor/Actress: </h4>
                     <span>
                         <a href="">Ryan Reynolds</a>
                     </span>
                 </div>
-                <div>
+                <div id="more_details">
                     <div>
                         <h4>Rating:</h4>
                         <span><a href="">9/10</a> </span>
@@ -84,7 +84,7 @@
         </div>
 
         <!--content sub-area ==> cast-->
-        <div id="cast">
+        <div id="cast" class="hidden_div">
             <div><h3>Cast</h3></div>
             <div id="cast_list">
 
@@ -92,15 +92,15 @@
             </div>
         </div>
         <!--content sub-area ==> ratings-->
-        <div id="ratings">
-
+        <div id="ratings" class="hidden_div">
+            <div><h1>Ratings</h1></div>
         </div>
         <!--content sub-area ==> similar-->
-        <div id="similar">
+        <div id="similar" class="hidden_div">
 
         </div>
         <!--content sub-area ==> opinion-->
-        <div id="opinion">
+        <div id="opinion" class="hidden_div">
 
         </div>
     </section>
