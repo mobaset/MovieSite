@@ -13,13 +13,12 @@
 <body>
     <header class="custom_container container">
         <!--logo and movie title with sign in button-->
+
         <nav id="movie_title" class="navbar navbar-default">
-            <div id="logo">
-                <img src="" />
-            </div>
-            <div id="title">
-                <h1>Deadpool</h1>
-            </div>
+
+
+            <h1>Deadpool</h1>
+
         </nav>
         <!--creatives of the movie (movie image and trailer iframe)-->
         <section id="movie_graphics" class="">
@@ -27,7 +26,9 @@
                 <img src="deadpool.jpg" alt=""/>
             </div>
             <div id="movie_trailer">
-                <video></video>
+                <iframe width="500" height="300"
+                     src="https://www.youtube.com/embed/frRFOrbPfNc">
+                </iframe>
             </div>
         </section>
     </header>
@@ -52,14 +53,14 @@
         <!--content sub-area ==> overview-->
         <div id="overview">
             <div id="movie_details">
-                <div>
+                <div id="lead_actor">
                     <img src="Ryan%20Reynolds.jpg" alt=""/>
                     <h4>Lead Actor/Actress: </h4>
                     <span>
                         <a href="">Ryan Reynolds</a>
                     </span>
                 </div>
-                <div>
+                <div id="more_details">
                     <div>
                         <h4>Rating:</h4>
                         <span><a href="">9/10</a> </span>
