@@ -1,44 +1,60 @@
 body {
     margin: 0;
+    background-color: #E9F0F5;
 }
-#nav1 {
-    height: 83px;
-    padding: 10px;
-    /*margin: 5px 0px 5px 0px;*/
-    /*background: #626872;*/
-    background: linear-gradient(to bottom, #64D1F5 0%, #444C4F 100%) ;
-    border-color: rgba(149, 166, 181, 0.65);
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
+
+
 #movie_title {
-    background: #9ba3a0;
-    height: 100px;
+    height: 70px;
     /*width: 100%;*/
     margin: auto;
+    color: #FFFAFA;
+    /*position: fixed;*/
+    /*background: #273135;*/
+    background: #7d7e7d;
+
+    background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 60%);
+    background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 60%);
+    background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 60%);
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );*/
+
 }
-    #title {
-        color: #000000;
-        background: #fffdc1;
-        float: right;
-        width: 85%;
-        height: 100%;
-    }
-    #logo {
-        float: left;
-        width: 15%;
-    }
 
 #movie_graphics {
-    height: 350px;
+    height: 300px;
     width: 100%;
+
 }
     #movie_image {
-        background: #4ea337;
+
         float: left;
         width: 30%;
+        height: 100%;
+
     }
     #movie_trailer {
-        background: #4d66a3;
+        margin: auto;
+        padding: 0;
         float: right;
         width: 70%;
         height: 100%;
     }
+
+
+#overview {
+    height: 600px;
+}
+#movie_details {
+    float: left;
+    width: 50%;
+}
+
+#movie_summary {
+    float: right;
+    width: 50%;
+}
