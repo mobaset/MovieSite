@@ -8,7 +8,10 @@ img {
     max-height: 100%;
 }
 
-
+.hidden_div {
+    /*display: none;*/
+    /*visibility: hidden;*/
+}
 #movie_title {
     height: 70px;
     /*width: 100%;*/
