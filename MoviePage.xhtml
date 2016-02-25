@@ -52,17 +52,17 @@
 
         <!--content sub-area ==> overview-->
         <div id="overview" class="hidden_div">
-            <div id="movie_details">
-                <div id="lead_actor">
-                    <img id="actor_image" src="Ryan%20Reynolds.jpg" alt=""/>
-                    <div id="actor-info">
+            <div id="movie_details" class="container-fluid col-md-6">
+                <div id="lead_actor" class="row">
+                    <img id="actor_image" class="col-md-4" src="Ryan%20Reynolds.jpg" alt=""/>
+                    <div id="actor-info" class="col-md-4">
                         <h4>Lead Actor/Actress: </h4>
                         <span>
                             <a href="">Ryan Reynolds</a>
                         </span>
                     </div>
                 </div>
-                <div id="more_details"> <span>Movie Details</span>
+                <div id="more_details" class="row"> <span style="font-size: x-large; text-overflow: ellipsis; text_shadow: 4px 6px 6px 6px rgba(90,90,90,1);">Movie Details</span>
                     <div>
                         <h4>Rating:</h4>
                         <span><a href="">9/10</a> </span>
@@ -78,7 +78,7 @@
                 </div>
             </div>
 
-            <div id="movie_summary">
+            <div id="movie_summary" class="container-fluid col-md-6">
                 <h4>Story Line</h4>
                 <div>
                     A former Special Forces operative turned mercenary is subjected to a rogue experiment that leaves him with accelerated healing powers, adopting the alter ego Deadpool.
@@ -87,12 +87,34 @@
         </div>
 
         <!--content sub-area ==> cast-->
-        <div id="cast" class="hidden_div">
+        <div id="cast" class="hidden_div container">
             <div><p>Cast</p></div>
-            <div id="cast_list">
+            <table id="cast_list" class="container">
+                <tbody>
+                    <tr>
+                        <td>Ryan Reynolds</td>
+                        <td>...</td>
+                        <td>Wade / Deadpool</td>
+                    </tr>
+                    <tr>
+                        <td>Karan Soni</td>
+                        <td>...</td>
+                        <td>Dopinder</td>
+                    </tr>
+                    <tr>
+                        <td>Ed Skrein</td>
+                        <td>...</td>
+                        <td>Ajax</td>
+                    </tr>
+                    <tr>
+                        <td>Morena Baccarin</td>
+                        <td>...</td>
+                        <td>Vanessa</td>
+                    </tr>
+                </tbody>
 
 
-            </div>
+            </table>
         </div>
         <!--content sub-area ==> ratings-->
         <div id="ratings" class="hidden_div">

@@ -9,6 +9,9 @@ img {
 
 }
 
+h4 {
+    color: #ffbd0b;
+}
 .hidden_div {
     /*display: none;*/
     /*visibility: hidden;*/
@@ -38,6 +41,7 @@ img {
 }
 #title {
     padding-left: 3em;
+
 }
 
 
@@ -64,19 +68,15 @@ img {
 
 
 #overview {
-
+    font-family: Helvetica, sans-serif;
 }
 
 #actor_image {
-    box-shadow: 3px 3px 18px 3px rgba(90,90,90,1);
+    box-shadow: 3px 3px 18px 3px rgba(90, 90, 90, 1);
     margin-top: 20px;
-}
-#movie_details {
-    float: left;
-    width: 35%;
+
 }
 #actor-info {
-    float: right;
     padding-top: 20px;
 }
 
@@ -88,6 +88,7 @@ img {
     float: right;
     width: 50%;
     margin-top: 20px;
+
 }
 
 #content_navigation {
@@ -97,6 +98,11 @@ img {
 #nav_header {
     margin: 10px;
 }
-#nav_custom_color:active {
-    background: #FFBD0B;
+
+.custom-row {
+    height: 1em;
+}
+
+#cast_list {
+    width: 100%;
 }
