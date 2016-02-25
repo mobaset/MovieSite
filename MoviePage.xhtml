@@ -17,7 +17,7 @@
         <!--logo and movie title with sign in button-->
 
         <nav id="movie_title" class="navbar">
-            <h1 class="">Deadpool</h1>
+            <h1 id="title">Deadpool</h1>
         </nav>
         <!--creatives of the movie (movie image and trailer iframe)-->
         <section id="movie_graphics" class="">
@@ -31,7 +31,7 @@
             </div>
         </section>
         <!--content navigation bar-->
-        <nav id="content_navigation" >
+        <nav id="content_navigation" role="navigation">
             <div class="container">
                 <div id="nav_header">
                     <ul class="nav nav-pills" id="div_selector">
@@ -54,13 +54,15 @@
         <div id="overview" class="hidden_div">
             <div id="movie_details">
                 <div id="lead_actor">
-                    <img src="Ryan%20Reynolds.jpg" alt=""/>
-                    <h4>Lead Actor/Actress: </h4>
-                    <span>
-                        <a href="">Ryan Reynolds</a>
-                    </span>
+                    <img id="actor_image" src="Ryan%20Reynolds.jpg" alt=""/>
+                    <div id="actor-info">
+                        <h4>Lead Actor/Actress: </h4>
+                        <span>
+                            <a href="">Ryan Reynolds</a>
+                        </span>
+                    </div>
                 </div>
-                <div id="more_details">
+                <div id="more_details"> <span>Movie Details</span>
                     <div>
                         <h4>Rating:</h4>
                         <span><a href="">9/10</a> </span>
