@@ -33,7 +33,8 @@ h4 {
 }
 
 #title {
-    padding-left: 3em;
+    /*padding-left: 3em;*/
+    font-size: xx-large;
 }
 
 
@@ -60,6 +61,17 @@ h4 {
 /*end of top section*/
 
 
+/*navigation bar*/
+#content_navigation {
+    background: #333333 ;
+}
+
+#nav_header {
+    margin: 10px;
+}
+/*end of navigation bar*/
+
+
 /*overview*/
 #overview {
     font-family: Helvetica, sans-serif;
@@ -72,6 +84,7 @@ h4 {
 }
 #actor-info {
     padding-top: 20px;
+    padding-left: 30px;
 }
 
 #more_details {
@@ -83,18 +96,6 @@ h4 {
     width: 50%;
     margin-top: 20px;
 
-}
-
-#content_navigation {
-    background: #333333 ;
-}
-
-#nav_header {
-    margin: 10px;
-}
-
-.custom-row {
-    height: 1em;
 }
 /*end of overview*/
 
@@ -123,3 +124,11 @@ tr {
 }
 
 /*end of cast list*/
+
+
+/*footer*/
+#validator_button {
+    margin-bottom: 1.5em;
+}
+
+/*end of footer*/
