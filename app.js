@@ -12,4 +12,6 @@ http.createServer(function (req, res) {
 
     //var html = fs.readFile(__dirname + '/views/MoviePage.xhtml');
     //res.end(html);
-}).listen(process.env.PORT || 8080);
+}).listen(process.env.PORT, function  () {
+    console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
+});
