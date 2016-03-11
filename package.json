@@ -1,0 +1,20 @@
+{
+  "name": "movie_site_app",
+  "version": "1.0.0",
+  "description": "Movie Site Coursework",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobaset/MovieSite.git"
+  },
+  "author": "Mo Baset",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mobaset/MovieSite/issues"
+  },
+  "homepage": "https://github.com/mobaset/MovieSite#readme"
+}

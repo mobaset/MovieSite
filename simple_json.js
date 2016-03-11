@@ -19,9 +19,29 @@ function handle_incoming_request (req, res) {
 }
 
 function load_image_list (callback) {
-    fs.readdir('Images/', function (err, file_list) {
-        callback(err, file_list);
-    })
+    fs.readdir('images/', function (err, file_list) {
+        if(err) {
+            callback(err);
+            return;
+        }
+
+        var dirs_only = [];
+        (function iterator(i){
+            if (i >= file_list.length) {
+                callback(null, dirs_only);
+                return;
+            }
+            fs.stat('images/' + file_list[i], function (err, stats) {
+                if (err) {
+                    callback(err);
+                    return;
+                }
+                if (stats.isDirectory)
+                    dirs_only.push(file_list[i]);
+                iterator(i + 1);
+            });
+        })(0);
+    });
 }
 
 var s = http.createServer(handle_incoming_request);
