@@ -12,4 +12,4 @@ http.createServer(function (req, res) {
 
     //var html = fs.readFile(__dirname + '/views/MoviePage.xhtml');
     //res.end(html);
-}).listen(8080);
+}).listen(process.env.PORT || 8080);
