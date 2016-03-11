@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mobaset/MovieSite/issues"
   },
-  "homepage": "https://github.com/mobaset/MovieSite#readme"
+  "homepage": "https://github.com/mobaset/MovieSite#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
