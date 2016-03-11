@@ -8,7 +8,7 @@ var port = process.env.PORT || 8080;
 
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type' : 'application/xhtml+xml'});
-    fs.createReadStream(__dirname + '/views/MoviePage.xhtml').pipe(res);
+    fs.createReadStream(__dirname + '/Views/MoviePage.xhtml').pipe(res);
 
     //var html = fs.readFile(__dirname + '/views/MoviePage.xhtml');
     //res.end(html);
