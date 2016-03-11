@@ -13,6 +13,7 @@ app.use('/public', express.static(__dirname + '/public'));
 app.get('/', function (req, res) {
     fs.createReadStream(__dirname + '/Views/HomePage.xhtml').pipe(res);
 });
+
 // a get method to load movie page
 app.get('/MoviePage.xhtml', function (req, res) {
     fs.createReadStream(__dirname + '/Views/MoviePage.xhtml').pipe(res);
