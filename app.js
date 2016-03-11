@@ -7,7 +7,7 @@ var port = process.env.PORT || 8080; // a variable that stores a dynamic port
 
 
 // a middleware to grap CSS and JS files
-app.use('/public', express.static(__dirname + '/public'));
+app.use('/public', express.static(__dirname + '/Public'));
 
 // the get method to open the homepage when the url is called.
 app.get('/', function (req, res) {
