@@ -11,7 +11,7 @@ var apiURL = 'https://api.themoviedb.org/3/';
 
 
 // a middleware to grap CSS and JS files
-app.use('/public', express.static(__dirname + '/Public'));
+app.use('/public', express.static('./Public'));
 
 xhtmlController(app);
 
